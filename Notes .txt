@@ -1,0 +1,9 @@
+ //======>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..."navigator"...<<<<<<<<<<<<<<<<<<<<<<<<<<<=========
+                  return InkWell(
+                    //for on tap
+                    onTap: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => ItemsDtails(data: items[i])));
+                    },
+ فى صفحة المنتقل اليها ب عمل فى اول (class)final data علشان اورث منه الصفحة الاولى 
+  Image.asset(widget.data['images']) هنا تم وراثة الصورة عن طريق     widget .data .
